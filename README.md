@@ -28,3 +28,5 @@ LunaLogger::log(LogLevel::Info, FILE, LINE, "This is an info log message");
 LunaLogger::log(LogLevel::Warning, FILE, LINE, "This is a warning log message");
 LunaLogger::log(LogLevel::Error, FILE, LINE, "This is an error log message");
 ```
+
+The log messages will be written to the console and a text file called log.txt in the current working directory, with each message appended to the end of the file.
